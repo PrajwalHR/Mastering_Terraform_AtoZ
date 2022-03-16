@@ -1,7 +1,7 @@
 provider "aws" {
     region = "us-east-1"  
-    access_key = "AKIAV6FNB5NR42PZKR3V"
-    secret_key = "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"
+    access_key = "key"
+    secret_key = "key"
 }
 
 # we can change the provider like azure , google cloud
