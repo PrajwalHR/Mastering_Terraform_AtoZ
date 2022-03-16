@@ -20,3 +20,13 @@ resource "aws_subnet" "subnet_1" {
     Name = "Production_Subnet"
   }
 }
+# terraform apply
+# or 
+# terraform distroy 
+
+# terraform apply --auto-approve
+# or
+# terraform distroy --auto-approve
+
+# Terraform does not depend on the postion of calling out the task
+

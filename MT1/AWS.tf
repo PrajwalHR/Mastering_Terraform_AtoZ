@@ -20,4 +20,12 @@ resource "aws_instance" "My_First_Server" {
 # terraform apply [ another what_IF? + it asky permission for each stage]
 # done
 
+# terraform apply
+# or 
+# terraform distroy 
+
+# terraform apply --auto-approve
+# or
+# terraform distroy --auto-approve
+
 
