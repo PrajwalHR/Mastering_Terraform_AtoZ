@@ -8,7 +8,7 @@ provider "aws" {
 # If we run it twice it will not create a new or same aws server 
 
 resource "aws_instance" "My_First_Server" {
-    ami = "ami-0e472ba40eb589f49"
+    ami = "ami-****"
     instance_type = "t2.micro"
     tags = {
       name = "S1"
